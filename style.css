@@ -1,0 +1,154 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    color:rgb(80, 80, 80);
+}
+.introduction{
+    background-image: url(image/header-bg.png);
+}
+section{
+    min-height:800px;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 50px;
+    color:rgb(245, 51, 116);
+    font-weight: 600;
+}
+h2{
+    font-size: 47px;
+    font-weight: 400;
+}
+h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+h4{
+    font-size: 20px;
+}
+.half-width{
+    width:45%;
+    margin-left: 5%;
+    float: left;
+}
+img{
+    width:100%;
+}
+.half-width .text{
+    margin-top: 150px;
+}
+p{
+    width: 80%;
+    font-size: 18px;
+}
+a{
+    text-decoration:none ;
+    font-size: 20px;
+    padding:10px 30px;
+    color:white;
+    border-radius: 50px;
+    margin-top: 20px;
+    display:inline-block;
+    background-image: linear-gradient(45deg, rgb(224, 79, 188),rgb(248, 50, 15));
+}
+a:hover{
+    background-image: linear-gradient(45deg, rgb(171, 60, 245),rgb(255, 106, 6));
+}
+.biograpgy{
+    background-image: url(image/biography-bg.png);
+}
+.portfolio{
+    text-align: center;
+    background-position: right;
+    background-image: url(image/latest-work-bg.png);
+}
+.portfolio .work{
+    width:30%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    float: left;
+    box-shadow:0px 10px 25px lightgrey;
+    position: relative;
+}
+.portfolio .work:last-child{
+    margin-right: 1%;
+}
+.portfolio .work:hover{
+    box-shadow:0px 10px 25px grey;
+    width:30.5%;
+
+}
+.clint-review{
+    text-align: center;
+    background-color: rgb(215, 241, 250);
+}
+.review {
+    width:35%;
+    height:20%;
+    display: inline-block;
+    text-align: center;
+}
+.clint-review .review .comment img{
+    width:60px;
+    height: 60px;
+    background-image: gray;
+    border-radius: 50%;
+    border:5px solid lightgray;
+}
+.comm-txt {
+    height: 50%;
+    width: 70%;
+    background-color: rgb(255, 182, 182);
+    position: relative;
+    border-radius: 10px;
+    margin:10px auto;
+    padding:10px;
+    box-shadow: 10px 10px 20px gray;
+    margin:50px
+}
+.comm-txt p{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    width:100%;
+    text-align: center;
+}
+.form{
+    background-color: rgb(255, 255, 139);
+    text-align: center;
+
+}
+form{
+    max-width: 500px;
+    margin:auto;
+
+}
+form input,
+form textarea{
+    background-color: transparent;
+    width: 300px;
+    padding:15px;
+    margin-top:20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border:1px solid;
+}
+form a{
+    background-image: linear-gradient(45deg, rgb(255, 157, 0),rgb(255, 251, 0));
+}
+form a:hover{
+    transition: ease;
+    background-image: linear-gradient(45deg, rgb(255, 238, 0),orange);
+}
+footer{
+    text-align: center;
+    background-color: yellow;
+    padding:30px;
+}
+footer p{
+    margin:0px;
+    padding:0;
+    text-align: center;
+    margin:auto;
+}
